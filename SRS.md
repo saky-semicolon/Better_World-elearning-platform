@@ -189,6 +189,33 @@ A list of all major features of the solution is given below:
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 This section lists and explains technical terms, abbreviations, or acronyms used throughout the document for clarity.
+<table border="1">
+<tr>
+<th>Acronyms & Abbreviations</th>
+</tr>
+<tr>
+<td>
+
+- **API:** Application Programming Interface
+- **SDGs:** Sustainable Development Goals
+- **SRS:** Software Requirements Specification
+- **UN:** United Nations
+- **LMS:** Learning Management System
+- **FT:** Feature
+- **HR:** Human Resources
+- **URL:** Uniform Resource Locator
+- **GUI:** Graphical User Interface
+- **FAQ:** Frequently Asked Questions
+- **HTTPS:** Hypertext Transfer Protocol Secure
+- **SSL:** Secure Sockets Layer
+- **TLS:** Transport Layer Security
+- **HTTP:** Hypertext Transfer Protocol
+- **SMTP:** Simple Mail Transfer Protocol
+- **FTP:** File Transfer Protocol</td>
+
+</tr>
+</table>
+
 
 ## 2. System Description
 ### 2.1 System Overview
@@ -197,9 +224,22 @@ Better World is an interactive platform offering modules, challenges, and a gami
 ### 2.2 System Features
 Features include user registration, educational content, challenges aligned with the SDGs, impact evaluation, and user interaction tools such as forums and leaderboards.
 
+### 2.3 User Interfaces
+
+### 2.4 Hardware Interfaces
+
+### 2.5 Software Interfaces
+
+### 2.6 Communications Interfaces
+
+### 2.7 Memory Constraints
+
+### 2.8 Operations
+
+
 ## 3. Functional Requirements
 ### 3.1 Use Cases
-- **Use Case 1:** User Registration
+- **Use Case v1.0.0:** User Registration
   - **Description:** Allows users to create accounts.
   - **Actors:** New Users
   - **Preconditions:** None
