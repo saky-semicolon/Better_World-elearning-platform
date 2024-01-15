@@ -8,45 +8,184 @@ The purpose of this document is to define the software requirements for Better W
 ### 1.2 Scope
 The scope includes the entire Better World application, covering education, gamification, and social impact features, focusing on fostering a community dedicated to creating a better world.<br>
 A list of all major features of the solution is given below:
+
 <table border="1">
+<thead>
 <tr>
-<th>Feature</th>
-<th>Name</th>
-<th>Description</th>
-</tr>"
+<th scope="col">Feature</th>
+<th scope="col">Name</th>
+<th scope="col">Description</th>
+</tr>
+</thead>
+<tbody>
 <tr>
-<td rowspen="3">Admin</td>
+<td colspan="3"><strong>HR-manager</strong></td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>FT-01</td>
+<td><strong>User Management</strong></td>
+<td>
+<ol>
+<li>Authorization/ Registration</li>
+<li>Add User</li>
+<li>View the list of Users</li>
+<li>View User profile information</li>
+<li>Edit User profile information</li>
+<li>Delete User</li>
+<li>Archive/ Unarchive User</li>
+<li>Manage User’s rights</li>
+<li>View User dashboard</li>
+</ol>
+</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>FT-02</td>
+<td><strong>Administration</strong></td>
+<td>
+<ol>
+<li>Create Company Organizational Structure</li>
+<li>Create Skill Matrix</li>
+</ol>
+</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td colspan="3"><strong>Learner</strong></td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>FT-03</td>
+<td><strong>Onboarding</strong></td>
+<td>
+<ol>
+<li>Start/Stop/Skip/Complete System Onboarding</li>
+<li>Start/Stop/Complete Company Onboarding</li>
+</ol>
+</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>FT-04</td>
+<td><strong>Professional development</strong></td>
+<td>
+<ol>
+<li>Add Skill&nbsp;</li>
+<li>Set Deadline</li>
+<li>Delete Skill</li>
+<li>Archive Skill</li>
+<li>View the Skill completion progress</li>
+<li>View the list of Skills</li>
+<li>View information about Skill</li>
+<li>View the list of completed Skills</li>
+<li>View the list of Interests (favorite Skills)</li>
+<li>Search for Skills</li>
+</ol>
+</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>FT-05</td>
+<td>
+<p><strong>Course</strong></p>
+<p><strong>(All Courses are stored in LMS)</strong></p>
+</td>
+<td>
+<ol>
+<li>Start the Cours</li>
+<li>Stop/Continue passing the Course</li>
+<li>Complete the Course</li>
+</ol>
+</td>
 </tr>
+<tr>
+<td>FT-06</td>
+<td><strong>Certificates</strong></td>
+<td>
+<ol>
+<li>Upload the Certificate</li>
+<li>View the list of Certificates</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>FT-07</td>
+<td><strong>Badges</strong></td>
+<td>
+<ol>
+<li>Get Badges</li>
+<li>View the list of Badges</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>FT-08</td>
+<td><strong>Events</strong></td>
+<td>
+<ol>
+<li>View the list of Events</li>
+<li>Create new Event</li>
+<li>Edit Event</li>
+<li>Delete Event</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>FT-09</td>
+<td><strong>Widget</strong></td>
+<td>
+<ol>
+<li>Add new Widget</li>
+<li>Hide widget</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>FT-10</td>
+<td><strong>Calendar</strong></td>
+<td>
+<ol>
+<li>View upcoming Events</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>FT-11</td>
+<td><strong>Chat</strong></td>
+<td>
+<ol>
+<li>Online chat with other Users</li>
+<li>Online chat with the Support team</li>
+<li>View the list of dialogues</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>FT-12</td>
+<td><strong>Notifications</strong></td>
+<td>
+<ol>
+<li>Enable/Disable Notifications</li>
+<li>View the list of Notifications</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td colspan="3"><strong>Mentor</strong></td>
+</tr>
+<tr>
+<td>FT-13</td>
+<td><strong>Professional development</strong></td>
+<td>
+<ol>
+<li>Add Skill to Learner Professional development plan</li>
+<li>Set Deadline</li>
+<li>Create Skill package</li>
+<li>Delete from Skill Professional development plan</li>
+<li>View the Skill completion progress</li>
+<li>View the list of Skills</li>
+<li>View information about Skill</li>
+<li>View Learner dashboard</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 This section lists and explains technical terms, abbreviations, or acronyms used throughout the document for clarity.
